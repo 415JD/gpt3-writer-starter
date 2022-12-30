@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettify": "prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -20,5 +21,8 @@
   },
   "optionalDependencies": {
     "next": "^12.1.5"
+  },
+  "devDependencies": {
+    "prettier": "2.8.1"
   }
 }
